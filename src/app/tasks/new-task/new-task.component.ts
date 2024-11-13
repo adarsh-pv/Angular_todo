@@ -8,7 +8,7 @@ import { TaskService } from '../tasks.service';
   selector: 'app-new-task',
   templateUrl: './new-task.component.html',
   styleUrl: './new-task.component.css'
-})
+}) //
 export class NewTaskComponent {
   @Input({required:true}) userId!:string;
   @Output() close=new EventEmitter<void>()
